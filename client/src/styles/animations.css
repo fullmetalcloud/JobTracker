@@ -1,0 +1,119 @@
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.slideanim-top {visibility:hidden;}
+.slide-top {
+  animation-name: slide-top;
+  -webkit-animation-name: slide-top;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slideanim-reduce {visibility:hidden;}
+.slide-reduce {
+  animation-name: slide-reduce;
+  -webkit-animation-name: slide-reduce;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-reduce {
+  0% {
+    opacity: 0;
+    transform: scale(10);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slideanim-expand {visibility:hidden;}
+.slide-expand {
+  animation-name: slide-expand;
+  -webkit-animation-name: slide-expand;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-expand {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slideanim-bot {visibility:hidden;}
+.slide-bot {
+  animation-name: slide-bot;
+  -webkit-animation-name: slide-bot;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-bot {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slideanim-left {visibility:hidden;}
+.slide-left{
+  animation-name: slide-left;
+  -webkit-animation-name: slide-left;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.slideanim-right {visibility:hidden;}
+.slide-right{
+  animation-name: slide-right;
+  -webkit-animation-name: slide-right;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}

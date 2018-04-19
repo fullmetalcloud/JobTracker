@@ -1,0 +1,8 @@
+
+@import './style.css';
+
+.jumbotron {
+  background-color:#1bad49;
+  font: 400 15px/1.8 "Gravitas One";
+  margin:0;
+}

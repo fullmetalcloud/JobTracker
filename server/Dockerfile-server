@@ -1,0 +1,9 @@
+FROM web_base
+
+RUN npm install mysql redis express --save
+
+COPY ./server.js /app/server.js
+COPY ./init_script_server.sh /app/init_script_server
+COPY ./test.json /app/test.json
+
+CMD ["bash", "/app/init_script_server"]

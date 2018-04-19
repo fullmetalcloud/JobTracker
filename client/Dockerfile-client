@@ -1,0 +1,8 @@
+FROM web_base
+
+RUN npm install -g react react-modal react-dom serve  
+
+COPY ./build /app/build/
+COPY ./init_script_client.sh /app/init_script_client
+
+CMD ["bash", "/app/init_script_client"]

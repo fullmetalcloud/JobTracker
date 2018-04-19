@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, serif;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+  background-color: blue;
+  font: 400 15px/1.8 "Gravitas One", cursive;
+  margin:0;
+}
+
+.container {
+    padding: 16px;
+}
+
+.invalidlogin {
+  color: red;
+  text-align: center;
+}
+
+.buttonstyle {
+  width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
